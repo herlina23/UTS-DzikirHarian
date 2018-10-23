@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "37738474276",
+    "firebase_url": "https://android-herlina.firebaseio.com",
+    "project_id": "android-herlina",
+    "storage_bucket": "android-herlina.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37738474276:android:94f0681dc821f130",
+        "android_client_info": {
+          "package_name": "com.example.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37738474276-770ir0aaevc8qa1nmsc3knn1cmolj1gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjfZ68YsPjdowrxyDHn68r_psujLEM0zs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37738474276:android:1cda9c5a2373abb6",
+        "android_client_info": {
+          "package_name": "com.herlina.utscoba2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37738474276-3tifuvoeknvltmfenmb4mrm26id1gnhn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.herlina.utscoba2",
+            "certificate_hash": "742fb80339aa0f56daf81dfcb8a278be9bc5ed31"
+          }
+        },
+        {
+          "client_id": "37738474276-770ir0aaevc8qa1nmsc3knn1cmolj1gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjfZ68YsPjdowrxyDHn68r_psujLEM0zs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37738474276-770ir0aaevc8qa1nmsc3knn1cmolj1gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
