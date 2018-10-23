@@ -26,6 +26,8 @@ Anggota		:
 
 Spesifikasi perangkat :
 Minimal menggunakan Android 6.0 (API Level 23)  Jelly Bean
+
+///////////////////////////////////////////////////////////////////////////////////////////
 MIT License
 MIT license adalah lisensi perangkat lunak bebas guna yang berasal dari Massachusetts Institute of Technology (MIT). Lisensi ini ringkas dan to the point. Lisensi ini membolehkan pengguna untuk melakukan apapun pada kode program seperti pada Apache License. Lisensi ini hanya mewajibkan pengguna untuk menyertakan lisensi dan copyright si pembuat pada kode yang didistribusikan ulang dan tidak ada larangan untuk menggunakan trademark dari si pembuat asli. Selain itu pengguna juga tidak berhak untuk menuntut si pembuat ketika terjadi kerusakan pada perangkat lunak tersebut.
 
