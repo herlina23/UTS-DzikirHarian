@@ -11,7 +11,7 @@ import com.google.firebase.messaging.RemoteMessage;
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
     // variabel ini digunakan untuk mengecek kirim pesan dari coul massaging firebase
-    public static final String TAG = "FCM_GUE zlatan is back";
+    public static final String TAG = "FCM_GUE zlatan is back"; //untuk menandai pesan pesan android
 
   //  @Override
    // public void onNewToken(String s) {

@@ -14,6 +14,8 @@ public class Fbs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fbs);
 
+
+
         MyFirebaseMessagingService ser = new MyFirebaseMessagingService();
 
         ser.newToken();

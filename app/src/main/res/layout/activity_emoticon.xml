@@ -29,6 +29,7 @@ tools:context=".Emoticon">
     android:layout_above="@+id/emojify_button"
     android:layout_centerHorizontal="true"
     android:layout_margin="@dimen/view_margin"
+    android:textColor="@color/colorFont"
     android:text="@string/emojify_me"
     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 

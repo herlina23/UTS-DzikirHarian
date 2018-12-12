@@ -27,26 +27,20 @@
 
         <!-- Splash screen -->
         <activity
-            android:name="com.herlina.utscoba2.Splashscreen"
+            android:name=".Splashscreen"
             android:label="@string/app_name"
-            android:theme="@style/Splashscreen"
+            android:noHistory="true"
             android:screenOrientation="portrait"
-            android:noHistory="true" >
-
-
+            android:theme="@style/Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.herlina.utscoba2.MainActivity"
-
-            android:label="@string/app_name" >
-        </activity>
-
+            android:name=".MainActivity99"
+            android:label="@string/app_name" />
         <activity android:name=".Fragment" />
         <activity android:name=".Emoticon" />
         <activity android:name=".Fbs" />
@@ -59,7 +53,20 @@
             </intent-filter>
         </service>
 
+        <activity android:name=".Media" />
+        <activity android:name=".BroadcastWidget" />
 
+        <receiver android:name=".BroadcastWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/broadcast_widget_info" />
+        </receiver>
+
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
